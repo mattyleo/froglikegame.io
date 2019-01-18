@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.modal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal_content {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    top: 5%;
+    left: 50%;
+    background: #ffffff;
+    transform: translate(-50%, 70%);
+}
+
+.modal-reset {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.modal-button {
+    width: 60px;
+    height: 30px;
+}
+
+.hide {
+    display: none;
+}
